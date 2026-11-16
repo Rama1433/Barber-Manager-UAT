@@ -1,13 +1,12 @@
-# Barber Manager LAB V5.1
+# Barber Manager UAT — Acceso y demos separados
 
-Prototipo HTML independiente para pruebas visuales con datos ficticios.
+Proyecto de **demostración visual** con datos ficticios. No está conectado a Supabase ni a Mercado Pago reales.
 
-- Incluye demostración de Dueño, Encargado y Empleado.
-- Presenta planes Base y Profesional y el módulo Turnos LAB V2.3.
-- Conserva los logos originales de Barber Manager.
-- Simula registro, vinculación por QR y Mercado Pago; no procesa pagos reales.
-- No conecta con Supabase ni con la aplicación productiva.
+- `index.html`: portada visual basada en el acceso original de `Barber_Manager.app(1).zip`, con el PNG original de Barber Manager. Los campos de acceso están deshabilitados por seguridad en el LAB.
+- `demo.html`: copia independiente y sin cambios funcionales del prototipo V5.1, con las vistas simuladas de dueño, encargado y empleado, planes Base/Profesional, QR, Turnos V2.3 y pagos simulados.
+- `favicon.png`: favicon original.
+- `vercel.json`: configuración de la web estática y bloqueo de indexación en buscadores.
 
-**Importante:** no cambiar logos, interfaces ni funcionalidades aprobadas sin una solicitud específica. No vincular este repositorio con el proyecto Barber Manager de producción.
+**Regla:** el código de la aplicación real, sus logos, las vistas de producción y sus funciones aprobadas permanecen intactos. Las novedades se prueban únicamente en el LAB. El acceso y registro reales se habilitarán solo con una base UAT independiente y probada.
 
-Archivo principal: `index.html`. Configuración de Vercel: `vercel.json`.
+Este repositorio no es una copia ejecutable del proyecto React Native/Expo original: es una maqueta estática de sus accesos y una demo interactiva separada.
